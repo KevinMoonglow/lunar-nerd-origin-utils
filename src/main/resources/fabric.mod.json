@@ -4,7 +4,7 @@
   "version": "${version}",
   "name": "Lunar Nerd Origin Utilities",
   "description": "Some utilities for origin stuff.",
-  "authors": [],
+  "authors": ["Kevin Moonglow"],
   "contact": {},
   "license": "MIT",
   "icon": "assets/lunar_nerd_origin_utils/icon.png",
