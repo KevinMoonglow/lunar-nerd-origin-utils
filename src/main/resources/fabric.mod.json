@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "lunar_nerd_origin_utils",
+  "version": "${version}",
+  "name": "Lunar Nerd Origin Utilities",
+  "description": "Some utilities for origin stuff.",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/lunar_nerd_origin_utils/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.github.KevinMoonglow.lunar_nerd_origin_utils.client.Lunar_nerd_origin_utilsClient"
+    ],
+    "main": [
+      "io.github.KevinMoonglow.lunar_nerd_origin_utils.Lunar_nerd_origin_utils"
+    ]
+  },
+  "mixins": [
+    "lunar_nerd_origin_utils.mixins.json",
+    {
+      "config": "lunar_nerd_origin_utils.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
