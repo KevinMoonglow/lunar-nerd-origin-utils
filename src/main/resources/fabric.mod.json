@@ -27,6 +27,9 @@
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
-    "minecraft": "${minecraft_version}"
+    "minecraft": "${minecraft_version}",
+    "apoli": "2.9.0",
+    "eggolib": "1.10.4",
+    "trinkets": "3.7.1"
   }
 }
