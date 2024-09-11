@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "lunar_nerd_origin_utils",
+  "id": "lunar_origins_core",
   "version": "${version}",
-  "name": "Lunar Nerd Origin Utilities",
+  "name": "Lunar Origins Core",
   "description": "Some utilities for origin stuff.",
   "authors": ["Kevin Moonglow"],
   "contact": {},
@@ -28,8 +28,8 @@
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
     "minecraft": "${minecraft_version}",
-    "apoli": "2.9.0",
-    "eggolib": "1.10.4",
-    "trinkets": "3.7.1"
+    "apoli": ">=2.9.0",
+    "eggolib": ">=1.10.4",
+    "trinkets": ">=3.7.1"
   }
 }
