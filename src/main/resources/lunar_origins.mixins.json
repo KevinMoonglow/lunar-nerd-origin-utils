@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.KevinMoonglow.lunar_origins.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BreathingForGlassBowlMixin",
+    "BrewingRecipeRegistryMixin",
+    "EquipmentControlMixin",
+    "PlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

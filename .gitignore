@@ -116,3 +116,11 @@ run/
 
 # Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
 !gradle-wrapper.jar
+
+# Yaml2Json built stuff
+/src/main/resources/data/c/
+/src/main/resources/data/lunar_origins/recipes/
+/src/main/resources/assets/lunar_origins/models/
+/src/main/resources/data/lunar_origins/powers/
+/src/main/resources/data/lunar_origins/tags/
+/src/main/resources/data/trinkets/

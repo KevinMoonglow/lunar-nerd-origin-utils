@@ -7,20 +7,20 @@
   "authors": ["Kevin Moonglow"],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/lunar_nerd_origin_utils/icon.png",
+  "icon": "assets/lunar_origins/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
-      "io.github.KevinMoonglow.lunar_nerd_origin_utils.client.Lunar_nerd_origin_utilsClient"
+      "io.github.KevinMoonglow.lunar_origins.client.Lunar_originsClient"
     ],
     "main": [
-      "io.github.KevinMoonglow.lunar_nerd_origin_utils.Lunar_nerd_origin_utils"
+      "io.github.KevinMoonglow.lunar_origins.Lunar_origins"
     ]
   },
   "mixins": [
-    "lunar_nerd_origin_utils.mixins.json",
+    "lunar_origins.mixins.json",
     {
-      "config": "lunar_nerd_origin_utils.client.mixins.json",
+      "config": "lunar_origins.client.mixins.json",
       "environment": "client"
     }
   ],
